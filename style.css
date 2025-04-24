@@ -1,0 +1,19 @@
+
+body { font-family: Arial, sans-serif; margin: 0; background: #fff8f2; color: #333; }
+nav { background: #f4dfd0; padding: 1rem; text-align: center; }
+nav a { margin: 0 1rem; text-decoration: none; color: #5a3825; font-weight: bold; }
+.hero {
+  height: 60vh;
+  background: url('https://images.unsplash.com/photo-1605197082653-5dd1bcda4f99') center/cover no-repeat;
+  display: flex; align-items: center; justify-content: center;
+  color: white; position: relative;
+}
+.hero .overlay { background: rgba(0, 0, 0, 0.5); padding: 2rem; text-align: center; }
+.section { padding: 2rem; max-width: 800px; margin: auto; }
+footer { text-align: center; background: #f4dfd0; padding: 1rem; color: #5a3825; }
+form input, form textarea, form button {
+  width: 100%; margin-bottom: 1rem; padding: 0.5rem;
+}
+form button {
+  background: #d69e84; color: white; border: none; font-weight: bold;
+}
